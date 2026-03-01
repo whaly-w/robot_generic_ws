@@ -49,7 +49,13 @@ class JointStatePublisher(Node):
         while (_in:=input('\n>> Joint No. | Value (rad)\nEnter: ')) != 'q':
             try:
                 _in = _in.split()
-                cmd[int(_in[0])] = float(_in[1])
+                
+                index = int(_in[0])
+                
+                if index >= self._joint_num:
+                    print('Index out of range')
+                    continue
+                cmd[index] = float(_in[1])
             except:
                 print('input error')
                 continue
