@@ -1,4 +1,0 @@
-[console_scripts]
-joint_state_publisher = generic_robot_py_controller.joint_state_publisher:main
-robot_position_controller_publisher = generic_robot_py_controller.robot_position_controller_publisher:main
-
