@@ -1,0 +1,144 @@
+[0.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.178s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7935fdb94d30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7935fdb94760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7935fdb94760>>, mixin_verb=('build',))
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.447s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/whaly/robot_generic_ws'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/generic_robot_py_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/generic_robot_py_controller) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/generic_robot_py_controller) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/generic_robot_py_controller) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/generic_robot_py_controller) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/generic_robot_py_controller) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/generic_robot_py_controller) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/generic_robot_py_controller) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/generic_robot_py_controller) by extension 'ros'
+[0.467s] DEBUG:colcon.colcon_core.package_identification:Package 'src/generic_robot_py_controller' with type 'ros.ament_python' and name 'generic_robot_py_controller'
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.496s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/whaly/pom_ws/hanumanoid_interaction/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.496s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/whaly/pom_ws/hanumanoid_interaction/install/hanumanoid_reach_tf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.496s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/whaly/pom_ws/hanumanoid_interaction/install/hanumanoid_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.498s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/whaly/urdf_generator_ws/install/LegV5_URDF_Export_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.499s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/whaly/robot_generic_ws/install/generic_robot_py_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.500s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/whaly/pom_ws/hanumanoid_interaction/install/hanumanoid_reach_tf' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.500s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/whaly/pom_ws/hanumanoid_interaction/install/hanumanoid_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.504s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 56 installed packages in /home/whaly/ws_moveit2/install
+[0.505s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/whaly/urdf_generator_ws/install
+[0.506s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/whaly/robot_generic_ws/install
+[0.506s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/whaly/hanumanoid_ws/hanumanoid_ros2_ws/install
+[0.508s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/whaly/ros2_addons_ws/install
+[0.509s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/whaly/rl_ws/rl_sar-main/install
+[0.509s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/whaly/Downloads/URDF_ws/install
+[0.510s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/whaly/moveit_ws/install
+[0.510s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/whaly/whaly_ws/install
+[0.511s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/whaly/isaac_ws/Isaacsim_ros2_ws/install
+[0.511s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/whaly/test/hanumanoid_interaction/install
+[0.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'generic_robot_py_controller' build argument 'cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'generic_robot_py_controller' build argument 'cmake_target' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'generic_robot_py_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'generic_robot_py_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'generic_robot_py_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'generic_robot_py_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'generic_robot_py_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'generic_robot_py_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'generic_robot_py_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'generic_robot_py_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/whaly/robot_generic_ws/build/generic_robot_py_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/whaly/robot_generic_ws/install/generic_robot_py_controller', 'merge_install': False, 'path': '/home/whaly/robot_generic_ws/src/generic_robot_py_controller', 'symlink_install': False, 'test_result_base': None}
+[0.584s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.585s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.585s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/whaly/robot_generic_ws/src/generic_robot_py_controller' with build type 'ament_python'
+[0.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('generic_robot_py_controller', 'ament_prefix_path')
+[0.588s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/hook/ament_prefix_path.ps1'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/hook/ament_prefix_path.dsv'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/hook/ament_prefix_path.sh'
+[0.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/whaly/robot_generic_ws/src/generic_robot_py_controller'
+[1.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/whaly/robot_generic_ws/src/generic_robot_py_controller': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/robot_generic_ws/build/generic_robot_py_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/robot_generic_ws/install/generic_robot_py_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/generic_robot_py_controller build --build-base /home/whaly/robot_generic_ws/build/generic_robot_py_controller/build install --record /home/whaly/robot_generic_ws/build/generic_robot_py_controller/install.log --single-version-externally-managed install_data
+[2.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/whaly/robot_generic_ws/src/generic_robot_py_controller' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/robot_generic_ws/build/generic_robot_py_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/robot_generic_ws/install/generic_robot_py_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/generic_robot_py_controller build --build-base /home/whaly/robot_generic_ws/build/generic_robot_py_controller/build install --record /home/whaly/robot_generic_ws/build/generic_robot_py_controller/install.log --single-version-externally-managed install_data
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/robot_generic_ws/install/generic_robot_py_controller' for CMake module files
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/robot_generic_ws/install/generic_robot_py_controller' for CMake config files
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/lib'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/bin'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/lib/pkgconfig/generic_robot_py_controller.pc'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/lib/python3.10/site-packages'
+[2.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('generic_robot_py_controller', 'pythonpath')
+[2.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/hook/pythonpath.ps1'
+[2.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/hook/pythonpath.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/hook/pythonpath.sh'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/bin'
+[2.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(generic_robot_py_controller)
+[2.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/package.ps1'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/package.dsv'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/package.sh'
+[2.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/package.bash'
+[2.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/generic_robot_py_controller/package.zsh'
+[2.056s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/whaly/robot_generic_ws/install/generic_robot_py_controller/share/colcon-core/packages/generic_robot_py_controller)
+[2.056s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.057s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.057s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.057s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.066s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.066s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.066s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.081s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/whaly/robot_generic_ws/install/local_setup.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/whaly/robot_generic_ws/install/_local_setup_util_ps1.py'
+[2.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/whaly/robot_generic_ws/install/setup.ps1'
+[2.089s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/whaly/robot_generic_ws/install/local_setup.sh'
+[2.089s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/whaly/robot_generic_ws/install/_local_setup_util_sh.py'
+[2.090s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/whaly/robot_generic_ws/install/setup.sh'
+[2.094s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/whaly/robot_generic_ws/install/local_setup.bash'
+[2.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/whaly/robot_generic_ws/install/setup.bash'
+[2.100s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/whaly/robot_generic_ws/install/local_setup.zsh'
+[2.101s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/whaly/robot_generic_ws/install/setup.zsh'

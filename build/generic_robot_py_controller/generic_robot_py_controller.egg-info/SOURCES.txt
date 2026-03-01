@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/generic_robot_py_controller/generic_robot_py_controller.egg-info/PKG-INFO
+../../build/generic_robot_py_controller/generic_robot_py_controller.egg-info/SOURCES.txt
+../../build/generic_robot_py_controller/generic_robot_py_controller.egg-info/dependency_links.txt
+../../build/generic_robot_py_controller/generic_robot_py_controller.egg-info/entry_points.txt
+../../build/generic_robot_py_controller/generic_robot_py_controller.egg-info/requires.txt
+../../build/generic_robot_py_controller/generic_robot_py_controller.egg-info/top_level.txt
+../../build/generic_robot_py_controller/generic_robot_py_controller.egg-info/zip-safe
+generic_robot_py_controller/__init__.py
+generic_robot_py_controller/joint_state_publisher.py
+generic_robot_py_controller/robot_position_controller_publisher.py
+resource/generic_robot_py_controller
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
