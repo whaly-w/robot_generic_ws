@@ -13,7 +13,7 @@ class RobotPositionControllerPublisher(Node):
         self.declare_parameter('config_path', '/config.yaml')
         self.declare_parameter('range', '-1_1')
         self.declare_parameter('delay_time', 1.0)
-        self.declare_parameter('random_value', True)
+        self.declare_parameter('random_value', False)
         
         self.mn, self.mx = [int(i) for i in self.get_parameter('range').value.split('_')]
         
