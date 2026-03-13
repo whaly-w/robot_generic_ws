@@ -35,12 +35,23 @@ class JointStatePublisher(Node):
             self._timer = self.create_timer(self._delay_time, self.timer_callback_random)
         else:
             self._timer = self.create_timer(self._delay_time, self.timer_callback)
-        
+
+        self.joint_set = []
+        for i, joint_name in enumerate(self._joint_names):
+            try:
+                sp = joint_name.split('_')
+                self.joint_set.append((sp[2] + ' ' + sp[3] + ' ' + sp[1], i, joint_name))
+            except:
+                self.joint_set.append((joint_name.strip('Joint_'), i, joint_name))
+        self.joint_set.sort()
+        # print(self.joint_set)
+
         print(f'Initialized joint command at {self._topic} for [{self._robot_name}] with {self._joint_num} joints')
     
     def timer_callback(self):
         msg = '\n'
-        msg_list = [f'{i}: {joint_name}' for i, joint_name in enumerate(self._joint_names)]
+
+        msg_list = [f'{i}: {joint_name}' for _, i, joint_name in self.joint_set]
         msg += '\n'.join(msg_list)
         self.get_logger().info(msg)
 
