@@ -41,9 +41,10 @@ class RobotPositionControllerPublisher(Node):
         msg += '\n'.join(msg_list)
         self.get_logger().info(msg)
 
-        _in = input('\n>> Joint No. | Value (rad)\nEnter: ').split()
+        # _in = input('\n>> Joint No. | Value (rad)\nEnter: ').split()
+        _in = input('\n>> Joint No. | Value (deg)\nEnter: ').split()
         joint_no = int(_in[0])
-        joint_value = float(_in[1])
+        joint_value = float(_in[1]) * np.pi / 180
 
         cmd = Float64MultiArray()
         cmd.data = np.zeros(self._joint_num).tolist()
